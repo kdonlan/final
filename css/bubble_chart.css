@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kodchasan', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
+  background-color: limegreen;
+  height: 40px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.intro {
+  margin-top: 40px;
+  height: 100px;
+  background-color: white;
+  width: 85%;
+}
+
+.intro h3 {
+  text-align: center;
+}
+
+.intro a p {
+  text-align: center;
+  /*padding-bottom: 25px;*/
+  padding-top: 40px;
+}
+
+.graphContainer {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  /*background-color: lightgray;*/
+  width: 100%;
+  margin-top: 25px;
+  margin: 0 auto;
+}
+
+.graphHeader {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.graphHeader h3 {
+  padding-bottom: 10px;
+}
+
+.style-button {
+  width: 75px;
+  background-color: green;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/*a, a:visited, a:active {*/
+/*  color: #444;*/
+/*}*/
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.button {
+  min-width: 130px;
+  padding: 4px 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active {
+  background: #000;
+  color: #fff;
+}
+
+
+.vis {
+  background-color: rgb(127,200,224);
+  width: 940px;
+  /*height: 600px;*/
+  margin: 0 auto;
+  border: 1px solid darkgreen;
+}
+
+#toolbar {
+  /*margin-top: 10px;*/
+  /*line-height: 30px;*/
+  justify-content: space-around;
+}
+
+.year {
+  font-size: 21px;
+  fill: #aaa;
+  cursor: default;
+}
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 10px;
+	width: 300px;
+	font-size: 12px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+}
+
+
+.footer {
+  width: 85%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+}
