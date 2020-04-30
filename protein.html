@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Protein</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="css/bubble_chart.css">
+      <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;500;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="documentation.html">DOCUMENTATION</a>
+  <a target="blank" href="https://www.youtube.com/watch?v=m56Pkd2ISZo">YouTube DEMO</a>
+</div>
+<main>
+  <div id="toolbar">
+    <a href="calcium.html" class="button">Calcium</a>
+    <a href="sodium.html" class="button">Sodium</a>
+    <a href="potassium.html" class="button">Potassium</a>
+    <a href="sugars.html" class="button">Sugars</a>
+    <a href="vitaminc.html" class="button">Vitamin C</a>
+    <a href="protein.html" class="button">Protein</a>
+    <a href="fiber.html" class="button">Fiber</a>
+    <a href="fats.html" class="button">Fats</a>
+    <a href="water.html" class="button">Water</a>
+  </div>
+  <div class="graphContainer">
+    <header class="graphHeader">
+      <h2 style="margin-bottom: 45px;">Protein (in grams)</h2>
+    </header>
+    <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <g transform="translate(40,0)">
+        <text x="-40" y="-7" style="font-size: 10px; font-family: Arial, Helvetica;">undefined</text>
+        <g class="y axis" transform="translate(0,0)" fill="none" font-size="10" font-family="sans-serif"
+           text-anchor="end" style="font-size: 10px; font-family: Arial, Helvetica;">
+          <path class="domain" stroke="#000" d="M-6,550.5H0.5V0.5H-6"
+                style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></path>
+          <g class="tick" opacity="1" transform="translate(0,550.5)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">0.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,537.960598819003)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">0.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,525.4211976380062)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">1.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,512.8817964570093)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">1.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,500.3423952760123)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">2.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,487.80299409501544)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">2.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,475.2635929140185)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">3.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,462.7241917330216)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">3.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,450.18479055202465)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">4.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,437.64538937102776)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">4.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,425.10598819003087)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">5.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,412.5665870090339)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">5.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,400.027185828037)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">6.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,387.4877846470401)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">6.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,374.94838346604314)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">7.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,362.40898228504625)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">7.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,349.8695811040493)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">8.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,337.33017992305247)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">8.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,324.7907787420555)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">9.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,312.2513775610586)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">9.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,299.7119763800617)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">10.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,287.17257519906474)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">10.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,274.6331740180678)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">11.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,262.0937728370709)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">11.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,249.554371656074)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">12.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,237.01497047507706)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">12.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,224.47556929408017)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">13.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,211.93616811308323)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">13.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,199.39676693208628)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">14.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,186.85736575108945)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">14.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,174.3179645700925)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">15.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,161.77856338909555)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">15.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,149.23916220809866)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">16.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,136.69976102710172)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">16.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,124.16035984610488)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">17.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,111.62095866510793)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">17.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,99.08155748411099)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">18.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,86.5421563031141)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">18.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,74.00275512211715)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">19.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,61.46335394112026)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">19.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,48.92395276012337)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">20.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,36.38455157912642)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">20.5</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,23.845150398129476)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">21.0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,11.30574921713253)">
+            <line stroke="#000" x2="-6"
+                  style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+            <text fill="#000" x="-9" dy="0.32em">21.5</text>
+          </g>
+        </g>
+        <rect transform="translate(0,0)" class="bar" x="19" width="167" y="314.70783225342836"
+              height="235.29216774657164" style="fill: rgb(0, 204, 204);"></rect>
+        <rect transform="translate(0,0)" class="bar" x="204" width="167" y="420.07189079453565"
+              height="129.92810920546435" style="fill: rgb(0, 204, 204);"></rect>
+        <rect transform="translate(0,0)" class="bar" x="389" width="167" y="413.36519716387636"
+              height="136.63480283612364" style="fill: rgb(0, 204, 204);"></rect>
+        <rect transform="translate(0,0)" class="bar" x="574" width="167" y="0" height="550"
+              style="fill: rgb(0, 204, 204);"></rect>
+      </g>
+      <g class="x axis" transform="translate(40,550)" fill="none" font-size="10" font-family="sans-serif"
+         text-anchor="middle" style="font-size: 10px; font-family: Arial, Helvetica;">
+        <path class="domain" stroke="#000" d="M0.5,6V0.5H760.5V6"
+              style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></path>
+        <g class="tick" opacity="1" transform="translate(102.5,0)">
+          <line stroke="#000" y2="6"
+                style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+          <text fill="#000" y="9" dy="0.71em">Dairy and Grains</text>
+        </g>
+        <g class="tick" opacity="1" transform="translate(287.5,0)">
+          <line stroke="#000" y2="6"
+                style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+          <text fill="#000" y="9" dy="0.71em">Fats and Prepared Foods</text>
+        </g>
+        <g class="tick" opacity="1" transform="translate(472.5,0)">
+          <line stroke="#000" y2="6"
+                style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+          <text fill="#000" y="9" dy="0.71em">Fruits and Vegetables</text>
+        </g>
+        <g class="tick" opacity="1" transform="translate(657.5,0)">
+          <line stroke="#000" y2="6"
+                style="shape-rendering: crispedges; fill: none; stroke: rgb(204, 204, 204);"></line>
+          <text fill="#000" y="9" dy="0.71em">Meat and Eggs</text>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</body>
+</html>

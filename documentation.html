@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bubble_chart.css">
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="documentation.html">DOCUMENTATION</a>
+  <a target="blank" href="https://www.youtube.com/watch?v=m56Pkd2ISZo">YouTube DEMO</a>
+</div>
+<!--  <div id="toolbar">-->
+<!--    <a href="#" class="button">Fruits and Vegetables</a>-->
+<!--    <a href="#" class="button">Dairy and Grains</a>-->
+<!--    <a href="#" class="button active">Meat and Eggs</a>-->
+<!--    <a href="#" class="button">Fats and Prepared Foods</a>-->
+<!--  </div>-->
+<main>
+  <div id="toolbar">
+    <a href="calcium.html" class="button">Calcium</a>
+    <a href="sodium.html" class="button">Sodium</a>
+    <a href="potassium.html" class="button">Potassium</a>
+    <a href="sugars.html" class="button">Sugars</a>
+    <a href="vitaminc.html" class="button">Vitamin C</a>
+    <a href="protein.html" class="button">Protein</a>
+    <a href="fiber.html" class="button">Fiber</a>
+    <a href="fats.html" class="button">Fats</a>
+    <a href="water.html" class="button">Water</a>
+  </div>
+  <div class="intro">
+    <h2>Documentation</h2>
+    <h4 style="text-align:left; margin-bottom: 25px;">Data Set</h4>
+    <p style="text-align:left;">The data set that we used gives advanced nutrition facts about the composition of
+      various different foods and cooking methods. The data set is quite vast, so the main food groups have been
+      separated into enumerated groups based on traits.</p>
+
+    <h4 style="text-align:left; margin-top:50px; margin-bottom: 25px;">Sketches</h4>
+    <div class="sketchcontainer">
+      <div class="sketches">
+        <img src="images/sketch1.jpg" style="width:350px;" alt="">
+        <img src="images/sketch2.jpg" style="width:350px;" alt="">
+        <img src="images/sketch3.jpg" style="height:460px;" alt="">
+      </div>
+
+      <br>
+      <br>
+      <h4 style="text-align:left; margin-bottom: 25px;">Initial Analysis</h4>
+      <p style="text-align:left;">We decided to use bar chart visualizations featuring all of the nutrients. At first we
+        thought a bubble chart would be a nice interaction, however it did not make the impact a simple bar chart
+        did.</p>
+      <br>
+      <p style="text-align: left;">We are using a data set about nutrients present in different foods and would like to
+        simplify the data by subcoding a food group to each food item to make the graphs easier to interpret and
+        understand. The bar chart is meant to show overall average content by food group. This way you can easily
+        examine
+        nutritional content across 4 main food groupings : Fruits and Vegetables, Meats and Eggs, Dairy and Grains, and
+        finally, Fats and Prepared Foods.</p>
+      <br>
+      <p style="text-align: left;">The questions we wanted to answer had to do with what we might think naturally would
+        be
+        in the particular food groups. Our hypothesis was that the Meat and Eggs group would have a lot of protein
+        content, Fats and Prepared Foods, a lot of sodium, Dairy and Grains, calcium, and finally, Fruits and Vegetables
+        would contain the most Vitamin C.</p>
+      <br>
+      <p style="text-align: left;">These did prove true in each case. Moreover, fiber was the highest content of Dairy
+        and
+        Grains and water was the highest in Fruits and Vegetables, which also makes sense.</p>
+      <br>
+      <p style="text-align: left;">Finally, when looking at the Fats and Prepared Foods, the highest nutrients were
+        sodium
+        and sugars.</p>
+      <p style="text-align: left;">Our analysis did ring true with our natural thoughts of these nutrients. We were
+        successful in visually representing the comparisons of these essential (and some not so essential)
+        nutrients.</p>
+      <h4 style="text-align:left; margin-bottom: 25px; margin-top: 50px;">Procedures</h4>
+      <ul style="text-align:left;">
+        <li>Group data by food group and subcoding</li>
+        <li>Separate and parse data as .csv</li>
+        <li>Link .csv data with d3 in html file</li>
+        <li>Create the bar charts and link interactions</li>
+        <li>Sort by nutrient content and food groups</li>
+      </ul>
+      <br>
+      <p style="text-align:left;">The color palette was determined in the Color Brewer. I used the hex colors that most
+        represented the chosen nutrient. For example, for potassium, we used a bright yellow (think b-a-n-a-n-a-s!). For
+        water, we used blue and Vitamin C, orange etc.</p>
+    </div>
+    <div class="intro">
+      <h4 style="text-align:left; margin-bottom: 25px;">Food Groupings</h4>
+      <p style="text-align:left;">The data group descriptions are as follows:
+        <ul style="text-align:left;">
+          <br>
+          <li><strong>Dairy and Grains</strong> Whole grain (raw, frozen or ready to cook) bread, rolls, rice, pasta, cereal, flour and mixes; other bread, rolls, rice, pasta, cereal, flour and mixes; frozen and ready to cook grains; low fat milk, cheese, yogurt and other dairy; whole and 2% milk, cheese, yogurt and other dairy</li>
+          <br>
+          <li><strong>Fats and Prepared Foods</strong> Oils; solid fats; raw sugars; non-alcoholic nondiet carbonated beverages; water; ice cream and frozen deserts; baked goods mixes; packaged sweets/baked goods; bakery items, ready to eat; frozen entrees and sides; canned soups, sauces, prepared foods; packaged snacks; ready to cook meals; hot and cold ready to eat deli items; diet nonalcoholic carbonated beverages; unsweetened coffee and tea </li>
+          <br>
+          <li><strong>Fruits and Vegetables</strong> Fresh/frozen fruit; canned fruit; fruit juice; fresh/frozen or canned dark green vegetables; canned orange vegetables; fresh/frozen or canned starchy vegetables; fresh/frozen or canned select nutrient vegetables; fresh/frozen canned other vegetables; frozen/dried or canned legumes</li>
+          <br>
+          <li><strong>Meat and Eggs</strong> Fresh/frozen low fat or regular fat meat; canned meat, poultry, fish; fresh/frozen poultry or fish; raw nuts and seeds; processed nuts, seeds and nut butters; eggs</li>
+          <br>
+        </ul>
+        <br>
+
+        <div class="footer" style="padding: 20px; margin-top: 25px; background-color: lightgreen;">
+          <h4 style="text-align: left; margin-bottom: 5px;">Cited Sources:</h4>
+          <p style="text-align:left; margin-bottom: 5px;">Click on the links below to view the source material and tools
+            used for our
+            visualizations.</p>
+          <p style="text-align:left;"></ul><a style="font-size: 13px;" href="https://fdc.nal.usda.gov/" target="_blank">Food
+            Data Central</a></p>
+          <p style="text-align: left;"><a style="font-size: 13px;"
+                                          href="https://www.ers.usda.gov/data-products/quarterly-food-at-home-price-database/quarterly-food-at-home-price-database/#Quarterly%20Food-at-Home%20Price%20Database-2%20(QFAHPD-2)"
+                                          target="_blank">United States Department of Agriculture</a></p>
+          <p style="text-align: left;"><a style="font-size: 13px;"
+                                          href="https://app.rawgraphs.io/"
+                                          target="_blank">RAWGraphs</a></p>
+          <br>
+          <p style="text-align:left; margin-bottom: 5px;">Click on the link below for the demo.</p>
+          <p><a style="font-size: 13px;" href="https://www.youtube.com/watch?v=m56Pkd2ISZo" target="_blank">YouTube Demo</a></p>
+        </div>
+      </div>
+</main>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/javascript.js"></script>
+</body>
+</html>
